@@ -50,7 +50,7 @@ type Foo struct {
 	ExportedField   map[interface{}]interface{}
 }
 
-// This example demonstrates how to use Dump to dump variables to stdout.
+// ExampleDump: This example demonstrates how to use Dump to dump variables to stdout.
 func ExampleDump() {
 	// The following package level declarations are assumed for this example:
 	/*
@@ -116,7 +116,7 @@ func ExampleDump() {
 	//
 }
 
-// This example demonstrates how to use Printf to display a variable with a
+// ExamplePrintf: This example demonstrates how to use Printf to display a variable with a
 // format string and inline formatting.
 func ExamplePrintf() {
 	// Create a double pointer to a uint 8.
@@ -141,7 +141,7 @@ func ExamplePrintf() {
 	// circular: {1 <*>{1 <*><shown>}}
 }
 
-// This example demonstrates how to use a ConfigState.
+// ExampleConfigState: This example demonstrates how to use a ConfigState.
 func ExampleConfigState() {
 	// Modify the indent level of the ConfigState only.  The global
 	// configuration is not modified.
@@ -159,7 +159,7 @@ func ExampleConfigState() {
 	// }
 }
 
-// This example demonstrates how to use ConfigState.Dump to dump variables to
+// ExampleConfigState_Dump: This example demonstrates how to use ConfigState.Dump to dump variables to
 // stdout
 func ExampleConfigState_Dump() {
 	// See the top-level Dump example for details on the types used in this
@@ -197,7 +197,7 @@ func ExampleConfigState_Dump() {
 	//
 }
 
-// This example demonstrates how to use ConfigState.Printf to display a variable
+// ExampleConfigState_Printf: This example demonstrates how to use ConfigState.Printf to display a variable
 // with a format string and inline formatting.
 func ExampleConfigState_Printf() {
 	// See the top-level Dump example for details on the types used in this
